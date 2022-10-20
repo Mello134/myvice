@@ -12,9 +12,11 @@
 </head>
 <body>
 	<h1>Vice Versa</h1>
-	<textarea cols="50" rows="10" name='username'></textarea>
-	<br>
-	<input type="submit" value="Реверсировать текст!">
+	<form action="{% url 'reverse' %}">
+		<textarea cols="50" rows="10" name='usertext'></textarea>
+		<br>
+		<input type="submit" value="Реверсировать текст!">
+	</form>
 
 
 

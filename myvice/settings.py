@@ -51,6 +51,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myvice.urls'
 
+####
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
